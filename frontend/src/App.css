@@ -98,3 +98,10 @@ button:disabled {
   color: #333;
   line-height: 1.4;
 }
+.loading-notice {
+  margin-top: 15px;
+  font-size: 13px;
+  color: #666;
+  text-align: center;
+  font-style: italic;
+}
