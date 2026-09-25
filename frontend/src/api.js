@@ -18,3 +18,12 @@ export async function predictTicketCategory(description) {
 
   return response.json();
 }
+
+export async function checkBackendHealth() {
+  try {
+    const response = await fetch(`${API_BASE_URL}/`, { method: "GET" });
+    return response.ok;
+  } catch {
+    return false;
+  }
+}
