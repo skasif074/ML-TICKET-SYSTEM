@@ -11,10 +11,6 @@ venv/
 env/
 .venv/
 
-
-model/*.pkl
-
-
 .ipynb_checkpoints/
 
 
