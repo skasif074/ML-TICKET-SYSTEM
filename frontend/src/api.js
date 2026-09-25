@@ -1,9 +1,6 @@
-// api.js
-// Purpose: Centralizes all communication with the FastAPI backend so
-// components don't need to know request/response details directly.
-// If the backend URL or endpoint changes, this is the only file to update.
-
-const API_BASE_URL = "http://localhost:8000";
+const API_BASE_URL = import.meta.env.DEV
+  ? "http://localhost:8000"
+  : "https://ml-ticket-system.onrender.com";
 
 export async function predictTicketCategory(description) {
   const response = await fetch(`${API_BASE_URL}/predict`, {
