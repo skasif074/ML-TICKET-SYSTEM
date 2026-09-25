@@ -1,0 +1,201 @@
+ticket_id,ticket_description,category,priority,status
+T001,crash on startup. ??,Application Error,Medium,Closed
+T002,Login Failed,Login Issue,Low,In Progress
+T003,custom report feature is broken. Please fix asap.,Report,Low,Closed
+T004,how to generate a custom pdf asap,Report,High,Open
+T005,I can't log in. asap,Login Issue,Medium,In Progress
+T006,I WANT TO DOWNGRADE MY ACCOUNT. Please fix asap.,Account Update,Medium,Closed
+T007,Submit button is unresponsive. asap,Application Error,Medium,Open
+T008,unusable because of lag...,Performance,Low,Closed
+T009,App crashes when I click save.,Application Error,Medium,In Progress
+T010,Custom report feature is broken. pls fix,Report,High,Closed
+T011,javascript error in console Please fix asap.,Application Error,Medium,Closed
+T012,Cannot update profile picture. Urgent!,Account Update,High,Open
+T013,white screen of death on the payment page. (Sent from my phone),Application Error,High,In Progress
+T014,i need to export my data asap,Report,Medium,Closed
+T015,Login page is just spinning. Happening since morning.,Login Issue,Medium,Open
+T016,custom report feature is broken.,Report,Low,In Progress
+T017,i am locked out Thx.,Login Issue,Low,In Progress
+T018,unusable because of lag asap,Performance,Low,Closed
+T019,javascript error in console Help!,Application Error,Low,In Progress
+T020,buttons overlap on mobile,Application Error,Low,Closed
+T021,report data seems incorrect. asap,Report,Low,Open
+T022,I want to downgrade my account. Thx.,Account Update,High,Open
+T023,why is it so slow? Any updates?,Performance,High,In Progress
+T024,need to update credit card ??,Account Update,Medium,Open
+T025,please change my phone number. Any updates?,Account Update,Low,Closed
+T026,export button doesn't do anything,Report,Medium,In Progress
+T027,Update company name on invoice.,Account Update,High,Closed
+T028,help me create a custom dashboard Thx.,Report,Low,Open
+T029,invalid username or password...,Login Issue,Medium,Closed
+T030,locked out of my acct,Login Issue,Low,Closed
+T031,Uh oh something went wrong error. Happening since morning.,Application Error,Low,Open
+T032,experiencing high ping pls fix,Performance,Medium,Open
+T033,why is the report taking so long Any updates?,Report,High,Open
+T034,pls reset my password...,Login Issue,Low,Open
+T035,taking minutes to load a single page,Performance,Low,Open
+T036,Need to change my email address.,Account Update,Low,Closed
+T037,my name is spelled wrong,Account Update,Low,Closed
+T038,THE APP QUIT UNEXPECTEDLY. Urgent!,Application Error,Medium,In Progress
+T039,how to add a new user to my team,Account Update,Medium,Open
+T040,TAKING MINUTES TO LOAD A SINGLE PAGE Urgent!,Performance,High,Open
+T041,bug with the reporting tool,Report,Medium,Open
+T042,MY LOGIN DOESNT WORK Urgent!,Login Issue,Medium,In Progress
+T043,2FA isn't working.,Login Issue,Medium,In Progress
+T044,Can you unlock my account?,Login Issue,Medium,Open
+T045,can you cancel my subscription pls fix,Account Update,Medium,Open
+T046,pls reset my password - John,Login Issue,Medium,In Progress
+T047,Password reset link is expired.,Login Issue,Medium,Open
+T048,i want to upgrade to premium Any updates?,Account Update,High,Closed
+T049,loading wheel just spins. Urgent!,Performance,High,In Progress
+T050,Error: Unhandled exception. - John,Application Error,High,Closed
+T051,Database queries are timing out. Urgent!,Performance,High,Open
+T052,the excel export is corrupted Any updates?,Report,High,Open
+T053,login button broken Thx.,Login Issue,Medium,In Progress
+T054,wrong address on my profile Please fix asap.,Account Update,Low,Closed
+T055,how to generate a custom pdf,Report,Low,Closed
+T056,BUG WITH THE REPORTING TOOL - John,Report,Medium,In Progress
+T057,Data isn't saving.,Application Error,High,Closed
+T058,i want to upgrade to premium asap,Account Update,High,Open
+T059,why is it so slow? pls fix,Performance,,In Progress
+T060,Update company name on invoice....,Account Update,Medium,Closed
+T061,wrong address on my profile Urgent!,Account Update,Low,
+T062,Forgot my password. Happening since morning.,Login Issue,Medium,Closed
+T063,taking minutes to load a single page,Performance,High,Closed
+T064,I want to downgrade my account. asap,Account Update,Low,Open
+T065,Transfer ownership of account. Please fix asap.,Account Update,High,Open
+T066,PDF EXPORT COMES OUT BLANK. pls fix,Report,Medium,Closed
+T067,The app quit unexpectedly. Urgent!,Application Error,Low,Closed
+T068,it broke when i clicked delete...,Application Error,High,Open
+T069,my name is spelled wrong,Account Update,Medium,Closed
+T070,the form won't submit Any updates?,Application Error,Low,Closed
+T071,Authentication failed error. Any updates?,Login Issue,High,Closed
+T072,Timeout error on queries. ??,Performance,Low,Closed
+T073,BUG WITH THE REPORTING TOOL (Sent from my phone),Report,Medium,Open
+T074,Database queries are timing out. ??,Performance,Low,Open
+T075,the form won't submit,Application Error,Low,Closed
+T076,how to add a new user to my team Help!,Account Update,High,Open
+T077,the app just closed itself,Application Error,Medium,Open
+T078,fatal error displayed Any updates?,Application Error,Low,Closed
+T079,i am locked out...,Login Issue,Low,Open
+T080,404 page not found Thx.,Application Error,Medium,Open
+T081,i need to export my data,Report,High,Closed
+T082,experiencing severe lag. Any updates?,Performance,Medium,Closed
+T083,sales report is missing yesterday's data Help!,Report,Medium,In Progress
+T084,JAVASCRIPT ERROR IN CONSOLE,Application Error,Medium,Closed
+T085,Reports are delayed.,Report,Medium,Closed
+T086,getting a weird glitch on the ui Any updates?,Application Error,Low,Closed
+T087,taking minutes to load a single page Any updates?,Performance,High,In Progress
+T088,how to generate a custom pdf pls fix,Report,Medium,Closed
+T089,Upgrading my subscription plan. Thx.,Account Update,High,In Progress
+T090,not getting the sms code,Login Issue,Medium,Closed
+T091,experiencing severe lag. ??,Performance,Low,In Progress
+T092,export button doesn't do anything Any updates?,Report,Low,In Progress
+T093,cannot update profile picture.,Account Update,High,Open
+T094,the app quit unexpectedly. Help!,Application Error,High,Open
+T095,Pages are lagging....,Performance,Low,Closed
+T096,add a secondary email...,Account Update,Low,Closed
+T097,The dashboard won't load. Any updates?,Application Error,Low,In Progress
+T098,export button doesn't do anything Thx.,Report,Medium,In Progress
+T099,i need to export my data - John,Report,High,Closed
+T100,my login doesnt work Help!,Login Issue,High,In Progress
+T101,Cannot update profile picture. ??,Account Update,High,In Progress
+T102,need to close this account,Account Update,Medium,In Progress
+T103,is the server down? - John,Performance,High,In Progress
+T104,authentication failed error.,Login Issue,Medium,In Progress
+T105,High latency on the API. Any updates?,Performance,High,Closed
+T106,taking minutes to load a single page - John,Performance,Medium,In Progress
+T107,api endpoints timing out asap,Performance,Low,Open
+T108,the excel export is corrupted Any updates?,Report,High,Closed
+T109,Transfer ownership of account. Help!,Account Update,Low,In Progress
+T110,How do I schedule a report? ??,Report,High,Open
+T111,I want to downgrade my account. Please fix asap.,Account Update,Medium,Closed
+T112,can you cancel my subscription pls fix,Account Update,High,Open
+T113,numbers don't add up in the summary,Report,Medium,Closed
+T114,2FA isn't working. asap,Login Issue,Low,Open
+T115,How do I schedule a report? ??,Report,Low,Open
+T116,my login doesnt work Help!,Login Issue,Medium,Open
+T117,the form won't submit,Application Error,Low,In Progress
+T118,how do i update my billing info?,Account Update,High,Closed
+T119,it broke when i clicked delete pls fix,Application Error,High,In Progress
+T120,Missing metrics in the weekly summary. ??,Report,Medium,Open
+T121,update company name on invoice. Help!,Account Update,High,Open
+T122,add a secondary email asap,Account Update,Medium,In Progress
+T123,bug in the new update,Application Error,Low,Open
+T124,everything is loading very slowly...,Performance,Medium,Open
+T125,Slow response times. Help!,Performance,High,Open
+T126,pages are lagging. (Sent from my phone),Performance,High,Closed
+T127,i want to change my username Happening since morning.,Account Update,,Open
+T128,i am locked out Happening since morning.,Login Issue,High,Closed
+T129,How do I update my billing info?,Account Update,Medium,Open
+T130,NOT GETTING THE SMS CODE,Login Issue,High,In Progress
+T131,Experiencing severe lag.,Performance,Low,Open
+T132,2FA isn't working. asap,Login Issue,Low,In Progress
+T133,Database queries are timing out....,Performance,High,In Progress
+T134,2fa isn't working....,Login Issue,High,Closed
+T135,loading wheel just spins.,Performance,High,Open
+T136,my login doesnt work,Login Issue,Low,Closed
+T137,getting an error popup Any updates?,Application Error,High,Closed
+T138,invalid username or password asap,Login Issue,High,In Progress
+T139,ANALYTICS DASHBOARD IS EMPTY.,Report,Medium,In Progress
+T140,change my physical address. Urgent!,Account Update,Medium,Open
+T141,High latency on the API. Any updates?,Performance,Low,Closed
+T142,CAN YOU GENERATE A USAGE REPORT FOR ME? Any updates?,Report,Medium,Closed
+T143,taking minutes to load a single page,Performance,Medium,In Progress
+T144,can you generate a usage report for me? Urgent!,Report,Low,Open
+T145,Upgrading my subscription plan. (Sent from my phone),Account Update,Low,Open
+T146,the app quit unexpectedly. Help!,Application Error,High,Open
+T147,is the server down? Any updates?,Performance,Medium,In Progress
+T148,cannot authenticate Thx.,Login Issue,Low,Closed
+T149,api endpoints timing out ??,Performance,Low,Open
+T150,it says wrong password but its correct...,Login Issue,Low,In Progress
+T151,unusable because of lag Urgent!,Performance,Low,Open
+T152,bug with the reporting tool pls fix,Report,High,In Progress
+T153,I CAN'T LOG IN. Urgent!,Login Issue,High,Open
+T154,need to update credit card - John,Account Update,Medium,In Progress
+T155,BUG IN THE NEW UPDATE - John,Application Error,High,Open
+T156,HOW TO GENERATE A CUSTOM PDF asap,Report,Medium,In Progress
+T157,data isn't saving. ??,Application Error,High,In Progress
+T158,app crashes when i click save. Please fix asap.,Application Error,High,Closed
+T159,it takes ages to sync,Performance,Low,In Progress
+T160,not getting the sms code Please fix asap.,Login Issue,Low,
+T161,authentication failed error. ??,Login Issue,High,In Progress
+T162,WHY IS THE REPORT TAKING SO LONG Any updates?,Report,Low,Open
+T163,cannot update profile picture. Happening since morning.,Account Update,Low,Closed
+T164,update company name on invoice. Happening since morning.,Account Update,Low,Open
+T165,loading wheel just spins. pls fix,Performance,Medium,Closed
+T166,getting a weird glitch on the UI pls fix,Application Error,Low,Closed
+T167,bug in the new update,Application Error,Medium,Open
+T168,transfer ownership of account. - John,Account Update,High,In Progress
+T169,takes forever to load the dashboard....,Performance,High,Open
+T170,Forgot my password. - John,Login Issue,High,In Progress
+T171,high latency on the api. (Sent from my phone),Performance,Low,Open
+T172,Why is it so slow? Please fix asap.,Performance,Medium,In Progress
+T173,The dashboard won't load. Any updates?,Application Error,Medium,Closed
+T174,upgrading my subscription plan.,Account Update,High,Open
+T175,LOGIN BUTTON BROKEN pls fix,Login Issue,Medium,Closed
+T176,I can't log in. asap,Login Issue,Low,Open
+T177,Authentication failed error.,Login Issue,Medium,In Progress
+T178,App crashes when I click save. Urgent!,Application Error,Medium,Open
+T179,is the server down?,Performance,Medium,In Progress
+T180,the app just closed itself Happening since morning.,Application Error,High,
+T181,ANALYTICS DASHBOARD IS EMPTY. asap,Report,Medium,Closed
+T182,javascript error in console Please fix asap.,Application Error,High,Closed
+T183,add a secondary email...,Account Update,Low,In Progress
+T184,screen goes blank...,Application Error,Medium,Closed
+T185,pls reset my password,Login Issue,High,In Progress
+T186,site is crawling - John,Performance,Medium,Closed
+T187,takes forever to load the dashboard. Any updates?,Performance,Medium,Closed
+T188,,Login Issue,High,Open
+T189,takes forever to load the dashboard. Any updates?,Performance,Medium,In Progress
+T190,getting an error popup Help!,Application Error,Medium,Closed
+T191,my scheduled reports stopped coming,Report,Low,In Progress
+T192,forgot my password. Urgent!,Login Issue,High,Open
+T193,frequent disconnects Urgent!,Performance,High,In Progress
+T194,2FA isn't working.,Login Issue,Low,Closed
+T195,Getting a 500 Internal Server Error. - John,Application Error,Medium,Closed
+T196,Timeout error on queries. pls fix,Performance,Medium,Closed
+T197,the excel export is corrupted Happening since morning.,Report,High,Open
+T198,why is the report taking so long Urgent!,Report,High,Open
+T199,Cannot download my monthly report. Any updates?,Report,Low,In Progress
+T200,I CAN'T LOG IN. Urgent!,Login Issue,Medium,Open

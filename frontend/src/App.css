@@ -1,0 +1,100 @@
+/* App.css */
+/* Purpose: Basic styling for the ticket classifier UI. Kept simple and
+   clean since the assignment explicitly states visual complexity is not
+   required — functionality is the focus. */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 14px;
+  color: #444;
+}
+
+textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: vertical;
+}
+
+button {
+  padding: 10px;
+  font-size: 15px;
+  background-color: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #93b4f0;
+  cursor: not-allowed;
+}
+
+.result-card {
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+}
+
+.result-card--error {
+  background-color: #fef2f2;
+  border-color: #fca5a5;
+  color: #b91c1c;
+}
+
+.result-card h3 {
+  margin: 10px 0 4px;
+  font-size: 13px;
+  color: #666;
+  text-transform: uppercase;
+}
+
+.category {
+  font-size: 18px;
+  font-weight: bold;
+  color: #111;
+}
+
+.confidence {
+  font-size: 16px;
+  color: #16a34a;
+}
+
+.suggested-response {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.4;
+}
