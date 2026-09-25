@@ -1,3 +1,13 @@
+// App.jsx
+// Purpose: Root component of the application. On initial load, pings the
+// backend's health check endpoint to wake it up (since the free-tier host
+// spins down when idle) and shows a full-page loading screen with rotating
+// status messages until the backend responds. Once ready, displays a usage
+// instructions panel (until the first prediction completes), the ticket
+// form, a dedicated "loading model" notice during the first prediction
+// (which is slower since the ML model loads into memory on first use),
+// and the prediction result.
+
 import { useState, useEffect } from "react";
 import TicketForm from "./components/TicketForm";
 import ResultCard from "./components/ResultCard";
@@ -18,6 +28,7 @@ function App() {
   const [result, setResult] = useState(null);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
+  const [firstPredictionDone, setFirstPredictionDone] = useState(false);
 
   useEffect(() => {
     let isMounted = true;
@@ -32,7 +43,6 @@ function App() {
     };
 
     waitForBackend();
-
     return () => {
       isMounted = false;
     };
@@ -40,11 +50,9 @@ function App() {
 
   useEffect(() => {
     if (backendReady) return;
-
     const interval = setInterval(() => {
       setMessageIndex((prev) => (prev + 1) % LOADING_MESSAGES.length);
     }, 2200);
-
     return () => clearInterval(interval);
   }, [backendReady]);
 
@@ -56,6 +64,7 @@ function App() {
     try {
       const data = await predictTicketCategory(description);
       setResult(data);
+      setFirstPredictionDone(true);
     } catch (err) {
       setError(err.message);
     } finally {
@@ -76,7 +85,28 @@ function App() {
   return (
     <div className="app-container">
       <h1>Customer Support Ticket Classifier</h1>
+
+      {!firstPredictionDone && (
+        <div className="info-panel">
+          <p className="info-title">📋 How to use this tool</p>
+          <ul className="info-list">
+            <li>Type a customer support ticket description in the box below (e.g. "I can't login to my account")</li>
+            <li>Click <strong>Predict</strong> to see the predicted category, confidence score, and an AI-generated suggested reply</li>
+            <li>This app is hosted on a free-tier server, so the <strong>first prediction may take 20–30 seconds</strong> while the ML model loads into memory</li>
+            <li>Every prediction after the first one will be <strong>instant</strong></li>
+          </ul>
+        </div>
+      )}
+
       <TicketForm onSubmit={handlePredict} loading={loading} />
+
+      {loading && !firstPredictionDone && (
+        <div className="predicting-notice">
+          <div className="spinner small"></div>
+          <p>Loading the model for the first time, please wait...</p>
+        </div>
+      )}
+
       <ResultCard result={result} error={error} />
     </div>
   );
