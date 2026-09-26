@@ -1,7 +1,3 @@
-# predict.py
-# Purpose: Loads the trained model and vectorizer from disk and provides a
-# single function to predict the category (with confidence score) for a new,
-# unseen ticket description. Used by both app.py (API) and manual testing.
 
 import os
 import joblib

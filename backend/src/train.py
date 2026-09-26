@@ -1,8 +1,3 @@
-# train.py
-# Purpose: Loads the raw ticket dataset, cleans it (missing values, duplicates,
-# text cleaning), converts text to TF-IDF features, trains a Logistic Regression
-# classifier, evaluates it on a held-out test set, saves the trained model and
-# vectorizer to disk, and generates a confusion matrix chart for the report.
 
 import os
 import pandas as pd

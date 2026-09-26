@@ -1,8 +1,3 @@
-# generate_response.py
-# Purpose: Optional bonus feature. Uses the Groq API (hosting an open-source
-# Qwen model) to generate a short, human-like customer support reply based on
-# the predicted category and original ticket description. Falls back to a
-# simple rule-based response if the API call fails, so the app never breaks.
 
 import os
 from groq import Groq

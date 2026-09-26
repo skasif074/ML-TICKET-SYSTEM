@@ -1,7 +1,3 @@
-// ResultCard.jsx
-// Purpose: Displays the prediction result (category, confidence, and the
-// AI-generated suggested response) after a successful API call. Renders
-// nothing if there is no result yet.
 
 function ResultCard({ result, error }) {
   if (error) {

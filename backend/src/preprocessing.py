@@ -1,7 +1,3 @@
-# preprocessing.py
-# Purpose: Shared text-cleaning logic used by both training (train.py) and
-# inference (predict.py / app.py), so the exact same cleaning is applied
-# to historical training data and to new user-submitted tickets at prediction time.
 
 import re
 import string

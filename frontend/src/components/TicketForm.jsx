@@ -1,7 +1,3 @@
-// TicketForm.jsx
-// Purpose: Renders the ticket description textbox and Predict button.
-// Manages the input state and calls the parent's onSubmit handler with
-// the entered text when the user clicks Predict.
 
 import { useState } from "react";
 

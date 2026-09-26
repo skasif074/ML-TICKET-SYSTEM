@@ -1,10 +1,3 @@
-# app.py
-# Purpose: FastAPI server exposing the ticket classification system as a REST
-# API. Loads the trained model once at startup, exposes a /predict endpoint
-# that the React frontend calls with a new ticket description, and returns
-# the predicted category, confidence score, and an AI-generated suggested
-# response. CORS is enabled so the frontend (running on a different port)
-# can communicate with this backend during development.
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware

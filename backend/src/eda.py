@@ -1,8 +1,3 @@
-# eda.py
-# Purpose: Performs exploratory data analysis on the cleaned ticket dataset
-# and generates the charts required by Task 2 (category distribution,
-# priority distribution, status distribution), saving them as PNG files
-# so they can be included as screenshots in the final report.
 
 import os
 import pandas as pd
